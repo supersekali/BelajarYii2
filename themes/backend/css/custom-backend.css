@@ -1,0 +1,120 @@
+/*-----------------------------------------------------------------------------------
+    Author: Harias Martyno
+    Email: hariyazt16@gmail.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	01. Custom Table
+	02. Custom Login Page
+	03. Content
+	
+-----------------------------------------------------------------------------------*/
+
+/*  01. Custom Table ----------------------------------------*/
+table.table .form-group {
+	padding: 0;
+	margin: 0;
+}
+
+table.table2 .form-group {
+	padding: 0;
+	margin: 0;
+	width: 170px;
+	height : 220px;
+}
+.form-group.has-error .help-block {
+	display: block;
+}
+
+.logo img{
+	width: 150px;
+	height : 150px;	
+}
+
+.title .logo img{
+	width: 150px;
+	height : 40px;	
+}
+
+.form-group input[type=file] {
+	opacity: 1;
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+  }
+  .card .card-content img {
+	  width: 110px;
+	  height : 150px;
+  }
+ 
+ .table .tr{
+	width: 100%;
+	padding-inline: 10px; 
+  }
+
+  .card .card-content .table2 img {
+	width: 270px;
+	height : 270px;
+	padding-right: 10px;
+}
+
+  .card .card-header img {
+	width: 170px;
+	height : 220px;
+}
+/*  02. Custom Login Page ----------------------------------------*/
+.loginpage .navbar {
+	color: #fff;
+}
+.loginpage .navbar .title {
+	float: left;
+}
+.loginpage .navbar .nav {
+	float: right;
+}
+.loginpage .navbar h1 {
+	font-size: 18px;
+	margin: 10px;
+}
+.loginpage .navbar .nav ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+}
+.loginpage .navbar .nav ul li {
+	float: left;
+}
+.loginpage .navbar .nav ul li a {
+	margin: 0 10px;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+}
+.loginpage .card {
+	margin-top: 120px;
+}
+.loginpage .card-content {
+	padding-top: 0;
+}
+.loginpage .copyright {
+	text-align: center;
+	color:#fff;
+
+}
+
+.loginpage .copyright a {
+	text-align: center;
+	color: red ;
+}
+/*  03. Custom Content ----------------------------------------*/
+.message {
+	padding: 10px;
+}
